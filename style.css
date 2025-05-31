@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+     font-family: Arial, sans-serif;
+     color: #0f0f0f;
+}
+   
+/* Header */
+.apresentaçao {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 12px 1px 15px #0f0f0f;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h4 {
+    padding: 10px;
+    color: #646464;
+}
+
+/* Main */
+#principal {
+    padding: 20px;
+}
+
+.vaga {
+    background-color: rgb(239, 239, 239);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.descricao {
+    text-align: center;
+    margin: 20px;
+}
+
+.imagem {
+    width: 100px;
+    height: auto;
+}
+
+p {
+    margin: 20px;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 400px;
+}
+
+h3{
+    margin: 15px;
+}
+
+label {
+    margin: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #005c99;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin:15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+button:hover {
+    background-color: #2bd4d4;
+}
+
+/*Footer*/
+footer {
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
